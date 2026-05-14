@@ -1,4 +1,4 @@
-const Comunicado = require("../models/Comunicado");
+const Comunicado = require("../models/comunicado");
 
 const getAllComunicados = async function () {
   return await Comunicado.find().sort({ fecha: -1 });

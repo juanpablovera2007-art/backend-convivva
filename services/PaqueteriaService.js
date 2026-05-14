@@ -1,4 +1,4 @@
-const Paqueteria = require("../models/Paqueteria");
+const Paqueteria = require("../models/paqueteria");
 
 const getAllPaquetes = async function () {
     return await Paqueteria.find().sort({ fecha: -1, hora: -1 });

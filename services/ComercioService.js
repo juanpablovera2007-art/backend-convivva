@@ -1,4 +1,4 @@
-const Comercio = require("../models/Comercio");
+const Comercio = require("../models/comercio");
 
 const getAllProductos = async function () {
 

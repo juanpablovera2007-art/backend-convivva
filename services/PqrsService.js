@@ -1,4 +1,4 @@
-const Pqrs = require("../models/Pqrs");
+const Pqrs = require("../models/pqrs");
 
 const getAllPqrs = async function () {
 

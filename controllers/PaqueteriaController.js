@@ -1,4 +1,4 @@
-const paqueteriaService = require("../services/PaqueteriaService");
+const paqueteriaService = require("../services/paqueteriaService");
 
 const getAllPaquetes = async function (req, res) {
 
