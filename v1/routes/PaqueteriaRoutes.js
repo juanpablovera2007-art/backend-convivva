@@ -3,7 +3,7 @@ const express = require("express");
 const router = express.Router();
 
 const paqueteriaController =
-require("../../controllers/PaqueteriaController");
+require("../../controllers/paqueteriaController");
 
 router
 .get("/", paqueteriaController.getAllPaquetes)

@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const comunicadoController = require("../../controllers/ComunicadoController");
+const comunicadoController = require("../../controllers/comunicadoController");
 
 router
   .get("/", comunicadoController.getAllComunicados)

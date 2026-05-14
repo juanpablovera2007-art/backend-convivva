@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const pqrsController = require("../../controllers/PqrsController");
+const pqrsController = require("../../controllers/pqrsController");
 
 router
   .get("/", pqrsController.getAllPqrs)
