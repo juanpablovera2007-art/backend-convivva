@@ -10,8 +10,8 @@ const comercioSchema = new mongoose.Schema(
 
     categoria: {
       type: String,
-      enum: ["juegos", "hogar", "celular", "ropa", "otro"],
       required: true,
+      // Sin enum para aceptar cualquier categoría existente en la BD
     },
 
     vendedor_id: {
